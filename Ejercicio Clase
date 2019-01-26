@@ -1,0 +1,26 @@
+Entrada: 	Medidas a, b, c y d
+		Costo por m2
+
+Salida:		Área total del terreno
+
+E/S:		b*h/2
+
+Algoritmo:
+
+1.	Leer valor d
+2.	Leer valor b
+3.	área 1 = d*b/2
+4.	Leer valor c
+5.	Leer b
+6.	área 2 = c*b/2
+7.	Leer valor d
+8.	Leer valor b
+9.	A1 = √d2+b2
+10.	Leer valor c
+11.	Leer valor b
+12.	A3 = √c2+b2
+13.	Leer a
+14.	A2 = a – (A1 + A3)
+15.	Leer valor b
+16.	área 3 = A2*b
+17.	Total = (área 1 + área 2 + área 3)
